@@ -1,0 +1,26 @@
+{
+  "name": "cli-react-test",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "bin": "./bin/index.js",
+  "type": "module",
+  "files": [
+    "bin",
+    "package.json"
+  ],
+  "scripts": {
+    "test": "rm .\\react-test && node index.js",
+    "test-g": "rm .\\react-test && cli-react-test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "ejs": "^3.1.6",
+    "execa": "^6.1.0",
+    "inquirer": "^8.2.1",
+    "prettier": "^2.5.1"
+  }
+}

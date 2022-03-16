@@ -1,0 +1,22 @@
+import React from 'react'
+import ReactDom from 'react-dom'
+import { Button } from 'antd'
+
+ReactDom.render(
+    <div>
+        <Button type="primary">按钮</Button>
+        <p>Hello React!</p>
+    </div>,
+    document.getElementById('app')
+)
+
+<% if (hot) { %>
+    //热加载
+    if(module.hot){
+        module.hot.accept(err => {
+            if(err){
+                console.log("Cannot apply HMR update.", err);
+            }
+        })
+    }
+<% } %>
